@@ -1,4 +1,2 @@
-tasks:
-  - name: Script Task
-    init: curl -fsSL https://deno.land/x/install@v0.1.6/install.sh | sh && deno run -A -r https://fresh.deno.dev fritz-app && export DENO_INSTALL="/home/gitpod/.deno" && export PATH="$DENO_INSTALL/bin:$PATH" 
-
+image:
+  file: .gitpod.Dockerfile
